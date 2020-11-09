@@ -5,9 +5,10 @@
 @import "base/typo";
 
 @import "layout/header";
-@import "layout/sections";
+@import "layout/grid";
 @import "layout/footer";
 
-// @import "components/toggle";
+@import "components/heading";
+@import "components/buttons";
 
 @import "views/home";

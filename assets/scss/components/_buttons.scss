@@ -1,0 +1,50 @@
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-right: -0.2rem;
+
+  &--cta {
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #fff;
+    padding: 0.9rem 1.8rem;
+    color: $clr-primary-300;
+    border-radius: 0.4rem;
+    transition: background-color 0.5s;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background-color: $clr-secondary;
+    }
+  }
+
+  &--body {
+    font-size: 1.5rem;
+    color: $clr-secondary;
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    transition: color 0.5s;
+
+    &:hover,
+    &:focus {
+      color: $clr-primary;
+
+      &::before {
+        background-color: $clr-primary;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -0.3rem;
+      width: 100%;
+      height: 0.2rem;
+      background-color: $clr-secondary;
+      transition: background-color 0.5s;
+    }
+  }
+}
