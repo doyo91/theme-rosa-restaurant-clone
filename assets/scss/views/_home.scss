@@ -83,4 +83,18 @@ main {
       }
     }
   }
+
+  //   Discover our story
+  .restaurant {
+    text-align: center;
+
+    &__info {
+      margin-bottom: 3rem;
+
+      p {
+        line-height: 1.6;
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
 }
