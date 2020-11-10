@@ -98,3 +98,33 @@ main {
   }
   // Culinary delight
 }
+
+@media screen and (min-width: $break-small) {
+}
+
+@media screen and (min-width: $break-medium) {
+  main {
+    // Hero
+    .hero {
+      &__sub-headline {
+        font-size: 10rem;
+
+        span {
+          font-size: 12.2rem;
+        }
+      }
+
+      &__headline {
+        font-size: 4.7rem;
+        letter-spacing: 0.8rem;
+      }
+
+      .line {
+        max-width: 11.4rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $break-large) {
+}

@@ -16,3 +16,24 @@
     gap: 1.5rem;
   }
 }
+
+@media screen and (min-width: $break-small) {
+}
+
+@media screen and (min-width: $break-medium) {
+  .restaurant {
+    display: flex;
+    align-items: center;
+
+    & > div {
+      flex: 1;
+    }
+
+    .padding-right {
+      padding-right: 7rem;
+    }
+  }
+}
+
+@media screen and (min-width: $break-large) {
+}
