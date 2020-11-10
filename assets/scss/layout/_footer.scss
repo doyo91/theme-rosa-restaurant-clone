@@ -39,6 +39,7 @@
 
     .asterisk {
       margin: 2.4rem 0;
+      color: $clr-secondary;
     }
 
     p {
@@ -74,4 +75,43 @@
       transform: translate(10.5rem, -50%);
     }
   }
+}
+
+@media screen and (min-width: $break-small) {
+}
+
+@media screen and (min-width: $break-medium) {
+  .footer {
+    &__content {
+      // overflow: hidden;
+      max-width: 77.5rem;
+      margin: auto;
+    }
+
+    &__about {
+      max-width: 51.3rem;
+      margin: 0 auto 5.4rem;
+    }
+
+    &__divider {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__social-media,
+    & .newsletter__form {
+      width: 100%;
+      max-width: 27.3rem;
+      margin: 0 1rem;
+    }
+
+    & .newsletter {
+      &__btn {
+        transform: translate(7.5rem, -50%);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $break-large) {
 }

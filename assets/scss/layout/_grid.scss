@@ -14,3 +14,15 @@ section {
   display: flex;
   align-items: center;
 }
+
+@media screen and (min-width: $break-small) {
+}
+
+@media screen and (min-width: $break-medium) {
+  section {
+    padding: 7.9rem;
+  }
+}
+
+@media screen and (min-width: $break-large) {
+}
