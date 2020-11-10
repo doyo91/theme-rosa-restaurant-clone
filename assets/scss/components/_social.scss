@@ -1,0 +1,22 @@
+.social {
+  list-style: none;
+  margin-bottom: 5.4rem;
+  display: flex;
+  justify-content: center;
+
+  &__link {
+    i {
+      font-size: 2rem;
+      color: #fff;
+      padding: 0.8rem 2rem;
+      opacity: 0.5;
+      transition: color 0.5s;
+
+      &:hover,
+      &focus {
+        color: $clr-secondary;
+        opacity: 1;
+      }
+    }
+  }
+}
