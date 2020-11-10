@@ -8,3 +8,9 @@ section {
   margin: 0 auto;
   padding: 0 2.4rem;
 }
+
+.between-sections {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+}

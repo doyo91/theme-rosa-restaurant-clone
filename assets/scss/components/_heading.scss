@@ -24,6 +24,10 @@
     font-weight: 900;
     letter-spacing: 0.7rem;
     margin-right: -0.7rem;
+
+    &--light {
+      color: #fff;
+    }
   }
 
   &__asterisk {
